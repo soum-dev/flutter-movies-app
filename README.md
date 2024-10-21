@@ -1,16 +1,82 @@
-# movie_list
+# Movie List App
 
-A new Flutter project.
+## Overview
+
+Movie List App is a Flutter application that displays a curated list of movies with their details. Users can browse through top-rated movies, search for specific titles, and view detailed information about each movie.
+
+## Features
+
+- Display a list of top-rated movies sorted by IMDb rating
+- Search functionality to find movies by title
+- Detailed view for each movie, including plot, cast, and other information
+- Smooth navigation transitions between screens
+- Responsive design that works on various device sizes
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (version 2.0 or later)
+- Dart SDK (version 2.12 or later)
+- An IDE (e.g., Android Studio, VS Code)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```
+   git clone https://github.com/soum-dev/movie-list-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd movie-list-app
+   ```
+
+3. Get the dependencies:
+   ```
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```
+   flutter run
+   ```
+
+## Project Structure
+
+```
+lib/
+├── models/
+│   └── movie_model.dart
+├── screens/
+│   ├── home_page.dart
+│   └── movie_detailed_screen.dart
+├── custom_route.dart
+└── main.dart
+```
+
+## Dependencies
+
+- flutter: SDK
+
+## Configuration
+
+The app uses a local JSON file (`assets/movies.json`) to store movie data. Ensure this file is present and properly formatted.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[Include your license information here]
+
+## Acknowledgements
+
+- [Any acknowledgements or credits]
+
+## Contact
+
+[soum-dev] - [mouhamedsoumare70@gmail.com]
+
+Project Link: [https://github.com/soum-dev/movie-list-app](https://github.com/yourusername/movie-list-app)
